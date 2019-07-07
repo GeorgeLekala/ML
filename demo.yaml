@@ -1,7 +1,7 @@
 INPUT_SIZE: 512
 BATCH_SIZE: 1
 
-GPU_NUM: 1
+GPU_NUM:
 
 # directories
-CKPT_DIR: './ckpt/SC-FEGAN.ckpt'
+CKPT_DIR: './ckpt/training'

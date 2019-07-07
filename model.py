@@ -107,7 +107,7 @@ class Model(object):
             for var in vars_list:
                 vname = var.name
                 from_name = vname
-                # print(from_name)
+                #print(from_name)
                 var_value = tf.contrib.framework.load_variable(ckpt_path, from_name)
                 # self.sess.run(tf.assign(var, var_value))
                 assign_ops.append(tf.assign(var, var_value))
